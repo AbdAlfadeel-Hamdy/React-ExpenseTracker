@@ -7,6 +7,7 @@ const ExpenseItem = ({ item }) => {
     currency: "USD",
   });
   const amount = formatter.format(item.amount);
+
   return (
     <Card className="expense-item">
       <ExpenseDate date={item.date} />

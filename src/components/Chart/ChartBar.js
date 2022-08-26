@@ -1,6 +1,5 @@
 import "./ChartBar.css";
 const ChartBar = ({ label, value, max }) => {
-  console.log(max);
   const maxHeight = Math.round((value / max) * 100) + "%";
   return (
     <div className="chart-bar">
